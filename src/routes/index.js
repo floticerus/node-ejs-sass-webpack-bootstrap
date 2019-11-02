@@ -16,8 +16,6 @@ router.use( ( req, res, next ) =>
     }
 )
 
-// router.use( '/jquery', express.static( path.join( 'root-dir' ), 'node_modules', 'jquery', 'dist' ) )
-// router.use( '/popper.js', express.static( path.join( 'root-dir' ), 'node_modules', 'popper.js', 'dist' ) )
 router.use( '/css/bootstrap', express.static( path.join( dirz.get( 'root-dir' ), 'node_modules', 'bootstrap', 'dist', 'css' ) ) )
 
 router.use( require( 'node-sass-middleware' )(
