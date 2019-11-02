@@ -24,7 +24,7 @@ router.use( require( 'node-sass-middleware' )(
 
         dest: path.join( dirz.get( 'root-dir' ), 'public', 'css' ),
 
-        debug: true,
+        debug: false,
 
         indentedSyntax: false,
 
