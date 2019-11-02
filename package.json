@@ -1,0 +1,26 @@
+{
+  "name": "node-ejs-sass-webpack-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Kevin von Flotow",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "dirz": "0.0.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "jquery": "^3.4.1",
+    "node-sass-middleware": "^0.11.0",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
