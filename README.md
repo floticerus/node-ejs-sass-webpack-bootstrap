@@ -4,7 +4,8 @@ some boilerplate code to make my life easier, and maybe yours too.
 
 ## setup
 
-- clone repo
+- clone, fork, or download repo (you do you)
+- update package.json w/ your info
 - `npm install`
 - `npm start`
 
