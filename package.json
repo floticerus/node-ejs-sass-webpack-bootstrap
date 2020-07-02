@@ -1,23 +1,25 @@
 {
   "name": "node-ejs-sass-webpack-bootstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "private": true,
   "scripts": {
+    "build": "webpack",
+    "build:dev": "webpack --watch",
     "start": "node index.js"
   },
   "author": "Kevin von Flotow",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.5.0",
     "dirz": "0.0.1",
-    "ejs": "^2.7.1",
+    "ejs": "^2.7.4",
     "express": "^4.17.1",
-    "helmet": "^3.21.2",
-    "jquery": "^3.4.1",
+    "helmet": "^3.23.3",
+    "jquery": "^3.5.1",
     "node-sass-middleware": "^0.11.0",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "webpack": "^4.41.2",

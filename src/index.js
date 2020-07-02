@@ -11,7 +11,7 @@ require( path.join( dirz.get( 'src-dir' ), 'config' ) )
 
 if ( cluster.isMaster )
 {
-    return require( 'os' ).cpus().forEach( () => cluster.fork() )
+  return require( 'os' ).cpus().forEach( () => cluster.fork() )
 }
 
 const express = require( 'express' )
@@ -23,9 +23,9 @@ const app = express()
 
 // use helmet for a little extra security
 app.use( require( 'helmet' )(
-    {
+  {
 
-    }
+  }
 ))
 
 // use EJS view engine
