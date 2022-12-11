@@ -15,7 +15,7 @@
     "bootstrap": "^4.5.0",
     "dirz": "0.0.1",
     "ejs": "^2.7.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "helmet": "^3.23.3",
     "jquery": "^3.5.1",
     "node-sass-middleware": "^0.11.0",
